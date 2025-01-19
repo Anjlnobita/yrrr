@@ -74,12 +74,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text=timer_selection,
-                callback_data="GetTimerAnimation",
-            ),
-        ],
-        [
             InlineKeyboardButton(text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}")
