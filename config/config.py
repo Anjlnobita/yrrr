@@ -25,7 +25,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "FlopMusic_Bot")
 BOT_ID = int(getenv("BOT_ID", "7634367413"))
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
-TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "true")
+TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "false")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 DB_NAME = "badDB"
