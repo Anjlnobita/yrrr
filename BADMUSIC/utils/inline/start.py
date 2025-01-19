@@ -58,10 +58,6 @@ def alive_panel(_):
             ),
             InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}"),
         ],
-                [
-            InlineKeyboardButton(text="🎧 ꜱᴘᴏᴛɪꜰʏ", web_app=WebAppInfo(url="https://open.spotify.com/"),)
-            
-        ],
     ]
     return buttons
     
@@ -71,19 +67,15 @@ def music_start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="▪️ᴀᴅᴅ ᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ▪️",
+                text="ᴀᴅᴅ ᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="▪️ᴀʙᴏᴜᴛ▪️", callback_data="about"),
-            InlineKeyboardButton(text="▪️sᴜᴘᴘᴏʀᴛ▪️", callback_data="support"),
+            InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="about"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="support"),
         ],
-        [
-            InlineKeyboardButton(text="▪️ꜱᴘᴏᴛɪꜰʏ▪️", web_app=WebAppInfo(url="https://open.spotify.com/"),)
-            
-        ],
-        [InlineKeyboardButton(text="▪️ ғᴇᴀᴛᴜʀᴇ ▪️", callback_data="feature")],
+        [InlineKeyboardButton(text="ғᴇᴀᴛᴜʀᴇ", callback_data="feature")],
         
     ]
     return buttons
