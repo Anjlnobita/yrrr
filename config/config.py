@@ -207,7 +207,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/WZE.jpg",
+    "https://envs.sh/Hj3.jpg",
 )
 
 UC_IMG_URL = getenv(
@@ -232,7 +232,7 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/de1db74efac1770b1e8e9.jpg",
+    "https://envs.sh/Hj3.jpg",
 )
 
 STATS_IMG_URL = getenv(
