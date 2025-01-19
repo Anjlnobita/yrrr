@@ -48,7 +48,7 @@ DURATION_LIMIT_MIN = int(
 
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    "true",
+    "false",
 )
 
 # Fill True if you want to load extra plugins
